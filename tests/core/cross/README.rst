@@ -54,6 +54,10 @@ proto_test
 Tests that a ``go_proto_library`` can be cross-compiled, both with
 ``--platforms`` and with mode attributes.
 
+custom_platform_test
+--------------------
+Tests that building a `go_binary`_ with ``--platforms`` set to a custom platform, works without setting a cgo constraint on the custom platform.
+
 no_context_info
 ---------------
 

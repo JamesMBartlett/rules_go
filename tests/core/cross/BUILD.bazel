@@ -130,6 +130,11 @@ go_bazel_test(
     srcs = ["non_executable_test.go"],
 )
 
+go_bazel_test(
+    name = "custom_platform_test",
+    srcs = ["custom_platform_test.go"],
+)
+
 no_context_info(
     name = "no_context_info",
 )

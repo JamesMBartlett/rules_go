@@ -59,6 +59,7 @@ def declare_constraints():
 
     native.constraint_setting(
         name = "cgo_constraint",
+        default_constraint_value = ":cgo_off",
     )
 
     native.constraint_value(
